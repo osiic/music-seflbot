@@ -1,0 +1,14 @@
+{
+  "name": "music-seflbot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env index.js"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.13.7",
+    "discord.js-selfbot-v13": "^3.3.0",
+    "ffmpeg": "^0.0.4",
+    "libsodium-wrappers": "^0.7.14",
+    "opusscript": "^0.1.1"
+  }
+}
