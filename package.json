@@ -2,7 +2,8 @@
   "name": "music-seflbot",
   "main": "index.js",
   "scripts": {
-    "dev": "node --env-file=.env index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "dependencies": {
     "@distube/ytdl-core": "^4.13.7",
@@ -10,5 +11,8 @@
     "ffmpeg": "^0.0.4",
     "libsodium-wrappers": "^0.7.14",
     "opusscript": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }

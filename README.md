@@ -1,3 +1,1 @@
 # music-seflbot
-
-change .env
